@@ -28,3 +28,7 @@ body {
 .card {
     height: 100%;
 }
+
+#navbarLinksUl {
+    direction: rtl;
+}
