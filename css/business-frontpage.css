@@ -6,6 +6,7 @@
 
 body {
     padding-top: 54px;
+    background-color: #efebe9;
 }
 
 @media (min-width: 992px) {
@@ -29,6 +30,15 @@ body {
     height: 100%;
 }
 
-#navbarLinksUl {
+#navbarLinksUl, #aboutDiv, #contactInfoDiv {
     direction: rtl;
+}
+
+#infoRow {
+    background-color: #d7ccc8;
+}
+
+.btn-primary {
+    background-color: #4e342e;
+    border-color: #4e342e;
 }
