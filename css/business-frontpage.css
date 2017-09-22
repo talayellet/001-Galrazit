@@ -42,3 +42,7 @@ body {
     background-color: #4e342e;
     border-color: #4e342e;
 }
+
+footer {
+    direction: rtl;
+}
