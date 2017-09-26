@@ -1,0 +1,20 @@
+body {
+    background-color: #d0cbaf;
+}
+
+.thumbnail a {
+    color: #996633;
+}
+
+.thumbnail a:hover {
+    text-decoration: none;
+    color: #4e3318;
+}
+
+.thumbnail .caption p {
+    color: #744d25;
+}
+
+footer {
+    width: 100%;
+}
