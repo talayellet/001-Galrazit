@@ -15,6 +15,12 @@ body {
     color: #744d25;
 }
 
+.categoryItem {
+    color: #744d25;
+    font-size: 1rem;
+    padding: 5px;
+}
+
 footer {
     width: 100%;
 }
