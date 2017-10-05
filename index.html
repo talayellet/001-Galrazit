@@ -4,64 +4,59 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content=""> <!--TBD: Add description data-->
+  <meta name="description" content="Galrazit Home Page">
   <meta name="author" content="Ayellet Tal">
 
-  <title>Galrazit LTD</title> <!--TBD: Verify company name spelling-->
+  <title>גלרזית בע"מ</title>
 
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap & jQuery -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-  <!-- Custom styles for this template -->
-  <link href="css/business-frontpage.css" rel="stylesheet">
-  <link href="css/carousel.css" rel="stylesheet">
-
+  <!--page css-->
+  <link rel="stylesheet" href="css/global.css">
 </head>
 
 <body>
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <div class="container">
-    <a class="navbar-brand" href="#">גלרזית</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul id="navbarLinksUl" class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">דף הבית
-            <span class="sr-only">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="html/productsCatalog.html">מוצרים</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">צור קשר</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">אודות</a>
-        </li>
+<nav class="navbar navbar-inverse affix">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#pageNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a id="headerLogo" class="navbar-brand" href="#">גלרזית</a>
+    </div>
+    <div id="pageNavbar" class="collapse navbar-collapse navbar-right">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">דף הבית</a></li>
+        <li><a href="html/productsCatalog.html">מוצרים</a></li>
+        <li><a href="#">צור קשר</a></li>
+        <li><a href="#">אודות</a></li>
       </ul>
     </div>
   </div>
 </nav>
+<!-- /. Navigation-->
 
-<!-- Header with Background Image -->
+<!-- business-header -->
 <header class="business-header">
   <div class="container">
     <div class="row">
       <div class="col-lg-12">
-        <!--TBD: Set different font + font color-->
         <h1 class="display-3 text-center text-white mt-4">גלרזית</h1>
       </div>
     </div>
   </div>
 </header>
+<!-- /. business-header -->
 
 <!-- Page Content -->
 <div class="container">
-
+  <!--infoRow-->
   <div id="infoRow" class="row">
     <div id="aboutDiv" class="col-sm-8">
       <h2 class="mt-4">מי אנחנו</h2>
@@ -89,66 +84,115 @@
     </div>
 
   </div>
-  <!-- /.row -->
+  <!-- /.infoRow -->
 
+  <!--carouselRow-->
   <div class="row">
-    <div class="col-sm-12 carouselRow">
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div class="col-sm-12 carouselCol">
+      <div id="productsCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
         <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#productsCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#productsCarousel" data-slide-to="1"></li>
+          <li data-target="#productsCarousel" data-slide-to="2"></li>
+          <li data-target="#productsCarousel" data-slide-to="3"></li>
+          <li data-target="#productsCarousel" data-slide-to="4"></li>
+          <li data-target="#productsCarousel" data-slide-to="5"></li>
+          <li data-target="#productsCarousel" data-slide-to="6"></li>
+          <li data-target="#productsCarousel" data-slide-to="7"></li>
         </ol>
-        <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active">
-            <img class="d-block img-fluid" src="http://udisglutenfree.com/wp-content/themes/udis-new/static/udis/images/header-kitchen.jpg" alt="Bread">
-            <div class="carousel-caption d-none d-md-block">
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+
+          <div class="item active">
+            <img src="images/home/carouselBreadCategory.jpg" alt="Bread" style="width:100%;">
+            <div class="carousel-caption">
               <h3>לחמים</h3>
               <!--<p>...</p>-->
             </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block img-fluid" src="http://udisglutenfree.com/wp-content/themes/udis-new/static/udis/images/header-store-locator.jpg" alt="מאפים">
-            <div class="carousel-caption d-none d-md-block">
+
+          <div class="item">
+            <img src="images/home/carouselBunsAndRollsCategory.jpg" alt="Buns and Rolls" style="width:100%;">
+            <div class="carousel-caption">
+              <h3>לחמניות</h3>
+              <!--<p>...</p>-->
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="images/home/carouselPastryCategory.jpg" alt="Pastry" style="width:100%;">
+            <div class="carousel-caption">
               <h3>מאפים</h3>
               <!--<p>...</p>-->
             </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block img-fluid" src="https://thebakingacademytt.com/images/program-header.jpg" alt="עוגות">
-            <div class="carousel-caption d-none d-md-block">
+
+          <div class="item">
+            <img src="images/home/carouselCakesCategory.jpg" alt="Cakes" style="width:100%;">
+            <div class="carousel-caption">
               <h3>עוגות</h3>
               <!--<p>...</p>-->
             </div>
           </div>
+
+          <div class="item">
+            <img src="images/home/carouselCookiesCategory.jpg" alt="Cookies" style="width:100%;">
+            <div class="carousel-caption">
+              <h3>עוגיות</h3>
+              <!--<p>...</p>-->
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="images/home/carouselGlutenFreeCategory.jpg" alt="Gluten Free" style="width:100%;">
+            <div class="carousel-caption">
+              <h3>ללא גלוטן</h3>
+              <!--<p>...</p>-->
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="images/home/carouselHolidaysPastryCategory.jpg" alt="Holidays Pastry" style="width:100%;">
+            <div class="carousel-caption">
+              <h3>חגים ומיוחדים</h3>
+              <!--<p>...</p>-->
+            </div>
+          </div>
+
+          <div class="item">
+            <img src="images/home/carouselSaleCategory.png" alt="Sale" style="width:100%;">
+            <div class="carousel-caption">
+              <h3>מבצעים</h3>
+              <!--<p>...</p>-->
+            </div>
+          </div>
+
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#productsCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <a class="right carousel-control" href="#productsCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
           <span class="sr-only">Next</span>
         </a>
       </div>
     </div>
-    <!-- /.row -->
   </div>
+  <!-- /.carouselRow-->
 </div>
+<!-- /.container -->
+
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+  <div class="container">
+    <p class="m-0 text-center text-white"> כל הזכויות שמורות &copy; גלרזית בע"מ </p>
+  </div>
   <!-- /.container -->
-
-  <!-- Footer -->
-  <footer class="py-5 bg-dark">
-    <div class="container">
-      <p class="m-0 text-center text-white"> כל הזכויות שמורות &copy; גלרזית בע"מ </p>
-    </div>
-    <!-- /.container -->
-  </footer>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/popper/popper.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+</footer>
 </body>
-
 </html>

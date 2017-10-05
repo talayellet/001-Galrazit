@@ -2,6 +2,15 @@ body {
     background-color: #d0cbaf;
 }
 
+#navbarLinksUl {
+    float: none;
+}
+
+#navbarLinksUl li {
+    float: none;
+    display: inline-block;
+}
+
 .thumbnail a {
     color: #996633;
 }

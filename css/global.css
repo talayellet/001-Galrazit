@@ -1,0 +1,63 @@
+* {
+    direction: rtl;
+}
+
+body {
+    background-color: #efebe9;
+}
+
+/*Remove bootstrap navbar border radius*/
+.navbar {
+    border: none;
+    border-radius: 0;
+}
+
+/*Override bootstrap navbar font size & color*/
+#headerLogo {
+    color: white;
+    font-size: x-large;
+}
+#pageNavbar {
+    font-size: large;
+}
+
+/*Add sticky page header*/
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+.business-header {
+    margin-top: 50px;
+    background: url('../images/global/backgroundImage.jpg') center center no-repeat scroll;
+    background-size: cover;
+    color:  #fde8a7;
+}
+
+.btn-primary {
+    background-color: #4e342e;
+    border-color: #4e342e;
+}
+
+/*Override body RTL direction for carousel navigation*/
+.carousel-indicators {
+    direction: ltr;
+}
+
+/*Responsive design*/
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    /*Override Bootstrap default float left for ul & li elements*/
+    #pageNavbar ul {
+        float: none;
+    }
+    .navbar-inverse .navbar-nav>.active>a, .navbar-nav>li {
+        float: none;
+        display: inline-block;
+    }
+
+    .business-header {
+        min-height: 200px;
+    }
+}
