@@ -40,9 +40,14 @@ body {
     border-color: #4e342e;
 }
 
-/*Override body RTL direction for carousel navigation*/
 .carousel-indicators {
     direction: ltr;
+}
+
+#footer {
+    margin-bottom: 0;
+    padding-top: 15px;
+    color: white;
 }
 
 /*Responsive design*/
