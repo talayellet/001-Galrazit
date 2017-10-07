@@ -1,8 +1,8 @@
-.thumbnail a {
+a {
     color: #996633;
 }
 
-.thumbnail a:hover {
+a:hover {
     text-decoration: none;
     color: #4e3318;
 }

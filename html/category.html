@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Galrazit Bread Category">
+    <meta name="author" content="Ayellet Tal">
+    <title>לחמים</title>
+
+    <!-- Bootstrap & jQuery -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <!-- page css -->
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/productsCatalog.css">
+    <link rel="stylesheet" href="../css/categoryCatalog.css">
+    <!--<link rel="stylesheet" href="../css/productsCatalog.css">-->
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse affix">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#pageNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a id="headerLogo" class="navbar-brand" href="#">גלרזית</a>
+        </div>
+        <div id="pageNavbar" class="collapse navbar-collapse navbar-right">
+            <ul class="nav navbar-nav">
+                <li><a href="../index.html">דף הבית</a></li>
+                <li>
+                    <ol id="productCategory" class="breadcrumb">
+                        <li><a href="productsCatalog.html">מוצרים</a>
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        </li>
+                        <li id="currentCategory" class="active"></li>
+                    </ol>
+                </li>
+                <li><a href="#">צור קשר</a></li>
+                <li><a href="#">אודות</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- /. Navigation-->
+
+<!-- Header with Background Image -->
+<header class="business-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <!--TBD: Set different font + font color-->
+                <h1 id="categoryLabelId" class="display-3 text-center text-white mt-4">גלרזית</h1>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- /.business-header-->
+
+<!-- Page Content -->
+<div class="container">
+
+    <!-- Products row-->
+    <div id="rowFirst" class="row marginTop"></div>
+    <!-- /. row-->
+
+    <!--TBD: Add JS to load & manage pagination-->
+    <!--Pagination-->
+    <!--<div class="row">
+        <div id="categoryPaginationDiv" class="col-12">
+            <ul class="pagination">
+                <li><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+            </ul>
+        </div>
+    </div>-->
+    <!-- /.Pagination-->
+
+</div>
+<!-- /. Page Content-->
+<!-- Footer -->
+<footer class="py-5 bg-dark">
+    <div class="container-fluid">
+        <p class="m-0 text-center text-white"> כל הזכויות שמורות &copy; גלרזית בע"מ </p>
+    </div>
+    <!-- /.container -->
+</footer>
+<!-- /. Footer -->
+
+<!--page scripts-->
+<script src="../js/loadCategory.js"></script>
+<script src="../js/breadCategory.js"></script>
+
+</body>
+</html>
