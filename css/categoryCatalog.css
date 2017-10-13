@@ -2,11 +2,9 @@
 .breadcrumb {
     margin-bottom: 0;
 }
-
 .breadcrumb>li+li:before {
     content: "";
 }
-
 #productCategory {
     width: 80%;
 }
@@ -14,6 +12,12 @@
 /*Override bootstrap thumbnails default CSS*/
 .caption h3 {
     margin: 0;
+    font-size: large;
+}
+
+/*Align pagination*/
+#paginationRow {
+    text-align: center;
 }
 
 /*Responsive design*/
