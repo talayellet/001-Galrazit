@@ -1,0 +1,94 @@
+{
+	"products": [
+		{
+			"id":1,
+			"label":"glutenFree-001",
+			"description": "description-001",
+			"image":"../images/glutenFreeCategory/glutenFree-001.png"
+		},
+		{
+			"id":2,
+			"label":"glutenFree-002",
+			"description": "description-002",
+			"image":"../images/glutenFreeCategory/glutenFree-002.png"
+		},
+		{
+			"id":3,
+			"label":"glutenFree-003",
+			"description": "description-003",
+			"image":"../images/glutenFreeCategory/glutenFree-003.png"
+		},
+		{
+			"id":4,
+			"label":"glutenFree-004",
+			"description": "description-004",
+			"image":"../images/glutenFreeCategory/glutenFree-004.png"
+		},
+		{
+			"id":5,
+			"label":"glutenFree-005",
+			"description": "description-005",
+			"image":"../images/glutenFreeCategory/glutenFree-005.png"
+		},
+		{
+			"id":6,
+			"label":"glutenFree-006",
+			"description": "description-006",
+			"image":"../images/glutenFreeCategory/glutenFree-006.png"
+		},
+		{
+			"id":7,
+			"label":"glutenFree-007",
+			"description": "description-007",
+			"image":"../images/glutenFreeCategory/glutenFree-007.png"
+		},
+		{
+			"id":8,
+			"label":"glutenFree-008",
+			"description": "description-008",
+			"image":"../images/glutenFreeCategory/glutenFree-008.png"
+		},
+		{
+			"id":9,
+			"label":"glutenFree-009",
+			"description": "description-009",
+			"image":"../images/glutenFreeCategory/glutenFree-009.png"
+		},
+		{
+			"id":10,
+			"label":"glutenFree-010",
+			"description": "description-010",
+			"image":"../images/glutenFreeCategory/glutenFree-010.png"
+		},
+		{
+			"id":11,
+			"label":"glutenFree-011",
+			"description": "description-011",
+			"image":"../images/glutenFreeCategory/glutenFree-011.png"
+		},
+		{
+			"id":12,
+			"label":"glutenFree-012",
+			"description": "description-012",
+			"image":"../images/glutenFreeCategory/glutenFree-012.png"
+		},
+		{
+			"id":13,
+			"label":"glutenFree-013",
+			"description": "description-013",
+			"image":"../images/glutenFreeCategory/glutenFree-013.png"
+		},
+		{
+			"id":14,
+			"label":"glutenFree-014",
+			"description": "description-014",
+			"image":"../images/glutenFreeCategory/glutenFree-014.png"
+		},
+		{
+			"id":15,
+			"label":"glutenFree-015",
+			"description": "description-015",
+			"image":"../images/glutenFreeCategory/glutenFree-015.png"
+		}
+	]
+}

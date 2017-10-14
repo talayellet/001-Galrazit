@@ -1,0 +1,94 @@
+{
+	"products": [
+		{
+			"id":1,
+			"label":"cake-001",
+			"description": "description-001",
+			"image":"../images/cakesCategory/cake-001.png"
+		},
+		{
+			"id":2,
+			"label":"cake-002",
+			"description": "description-002",
+			"image":"../images/cakesCategory/cake-002.png"
+		},
+		{
+			"id":3,
+			"label":"cake-003",
+			"description": "description-003",
+			"image":"../images/cakesCategory/cake-003.png"
+		},
+		{
+			"id":4,
+			"label":"cake-004",
+			"description": "description-004",
+			"image":"../images/cakesCategory/cake-004.png"
+		},
+		{
+			"id":5,
+			"label":"cake-005",
+			"description": "description-005",
+			"image":"../images/cakesCategory/cake-005.png"
+		},
+		{
+			"id":6,
+			"label":"cake-006",
+			"description": "description-006",
+			"image":"../images/cakesCategory/cake-006.png"
+		},
+		{
+			"id":7,
+			"label":"cake-007",
+			"description": "description-007",
+			"image":"../images/cakesCategory/cake-007.png"
+		},
+		{
+			"id":8,
+			"label":"cake-008",
+			"description": "description-008",
+			"image":"../images/cakesCategory/cake-008.png"
+		},
+		{
+			"id":9,
+			"label":"cake-009",
+			"description": "description-009",
+			"image":"../images/cakesCategory/cake-009.png"
+		},
+		{
+			"id":10,
+			"label":"cake-010",
+			"description": "description-010",
+			"image":"../images/cakesCategory/cake-010.png"
+		},
+		{
+			"id":11,
+			"label":"cake-011",
+			"description": "description-011",
+			"image":"../images/cakesCategory/cake-011.png"
+		},
+		{
+			"id":12,
+			"label":"cake-012",
+			"description": "description-012",
+			"image":"../images/cakesCategory/cake-012.png"
+		},
+		{
+			"id":13,
+			"label":"cake-013",
+			"description": "description-013",
+			"image":"../images/cakesCategory/cake-013.png"
+		},
+		{
+			"id":14,
+			"label":"cake-014",
+			"description": "description-014",
+			"image":"../images/cakesCategory/cake-014.png"
+		},
+		{
+			"id":15,
+			"label":"cake-015",
+			"description": "description-015",
+			"image":"../images/cakesCategory/cake-015.png"
+		}
+	]
+}

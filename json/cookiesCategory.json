@@ -1,0 +1,94 @@
+{
+	"products": [
+		{
+			"id":1,
+			"label":"cookies-001",
+			"description": "description-001",
+			"image":"../images/cookiesCategory/cookies-001.png"
+		},
+		{
+			"id":2,
+			"label":"cookies-002",
+			"description": "description-002",
+			"image":"../images/cookiesCategory/cookies-002.png"
+		},
+		{
+			"id":3,
+			"label":"cookies-003",
+			"description": "description-003",
+			"image":"../images/cookiesCategory/cookies-003.png"
+		},
+		{
+			"id":4,
+			"label":"cookies-004",
+			"description": "description-004",
+			"image":"../images/cookiesCategory/cookies-004.png"
+		},
+		{
+			"id":5,
+			"label":"cookies-005",
+			"description": "description-005",
+			"image":"../images/cookiesCategory/cookies-005.png"
+		},
+		{
+			"id":6,
+			"label":"cookies-006",
+			"description": "description-006",
+			"image":"../images/cookiesCategory/cookies-006.png"
+		},
+		{
+			"id":7,
+			"label":"cookies-007",
+			"description": "description-007",
+			"image":"../images/cookiesCategory/cookies-007.png"
+		},
+		{
+			"id":8,
+			"label":"cookies-008",
+			"description": "description-008",
+			"image":"../images/cookiesCategory/cookies-008.png"
+		},
+		{
+			"id":9,
+			"label":"cookies-009",
+			"description": "description-009",
+			"image":"../images/cookiesCategory/cookies-009.png"
+		},
+		{
+			"id":10,
+			"label":"cookies-010",
+			"description": "description-010",
+			"image":"../images/cookiesCategory/cookies-010.png"
+		},
+		{
+			"id":11,
+			"label":"cookies-011",
+			"description": "description-011",
+			"image":"../images/cookiesCategory/cookies-011.png"
+		},
+		{
+			"id":12,
+			"label":"cookies-012",
+			"description": "description-012",
+			"image":"../images/cookiesCategory/cookies-012.png"
+		},
+		{
+			"id":13,
+			"label":"cookies-013",
+			"description": "description-013",
+			"image":"../images/cookiesCategory/cookies-013.png"
+		},
+		{
+			"id":14,
+			"label":"cookies-014",
+			"description": "description-014",
+			"image":"../images/cookiesCategory/cookies-014.png"
+		},
+		{
+			"id":15,
+			"label":"cookies-015",
+			"description": "description-015",
+			"image":"../images/cookiesCategory/cookies-015.png"
+		}
+	]
+}

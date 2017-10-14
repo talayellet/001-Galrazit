@@ -1,0 +1,94 @@
+{
+	"products": [
+		{
+			"id":1,
+			"label":"pastries-001",
+			"description": "description-001",
+			"image":"../images/pastriesCategory/pastries-001.png"
+		},
+		{
+			"id":2,
+			"label":"pastries-002",
+			"description": "description-002",
+			"image":"../images/pastriesCategory/pastries-002.png"
+		},
+		{
+			"id":3,
+			"label":"pastries-003",
+			"description": "description-003",
+			"image":"../images/pastriesCategory/pastries-003.png"
+		},
+		{
+			"id":4,
+			"label":"pastries-004",
+			"description": "description-004",
+			"image":"../images/pastriesCategory/pastries-004.png"
+		},
+		{
+			"id":5,
+			"label":"pastries-005",
+			"description": "description-005",
+			"image":"../images/pastriesCategory/pastries-005.png"
+		},
+		{
+			"id":6,
+			"label":"pastries-006",
+			"description": "description-006",
+			"image":"../images/pastriesCategory/pastries-006.png"
+		},
+		{
+			"id":7,
+			"label":"pastries-007",
+			"description": "description-007",
+			"image":"../images/pastriesCategory/pastries-007.png"
+		},
+		{
+			"id":8,
+			"label":"pastries-008",
+			"description": "description-008",
+			"image":"../images/pastriesCategory/pastries-008.png"
+		},
+		{
+			"id":9,
+			"label":"pastries-009",
+			"description": "description-009",
+			"image":"../images/pastriesCategory/pastries-009.png"
+		},
+		{
+			"id":10,
+			"label":"pastries-010",
+			"description": "description-010",
+			"image":"../images/pastriesCategory/pastries-010.png"
+		},
+		{
+			"id":11,
+			"label":"pastries-011",
+			"description": "description-011",
+			"image":"../images/pastriesCategory/pastries-011.png"
+		},
+		{
+			"id":12,
+			"label":"pastries-012",
+			"description": "description-012",
+			"image":"../images/pastriesCategory/pastries-012.png"
+		},
+		{
+			"id":13,
+			"label":"pastries-013",
+			"description": "description-013",
+			"image":"../images/pastriesCategory/pastries-013.png"
+		},
+		{
+			"id":14,
+			"label":"pastries-014",
+			"description": "description-014",
+			"image":"../images/pastriesCategory/pastries-014.png"
+		},
+		{
+			"id":15,
+			"label":"pastries-015",
+			"description": "description-015",
+			"image":"../images/pastriesCategory/pastries-015.png"
+		}
+	]
+}

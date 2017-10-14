@@ -1,0 +1,94 @@
+{
+	"products": [
+		{
+			"id":1,
+			"label":"holidayPastries-001",
+			"description": "description-001",
+			"image":"../images/holidayPastriesCategory/holidayPastries-001.png"
+		},
+		{
+			"id":2,
+			"label":"holidayPastries-002",
+			"description": "description-002",
+			"image":"../images/holidayPastriesCategory/holidayPastries-002.png"
+		},
+		{
+			"id":3,
+			"label":"holidayPastries-003",
+			"description": "description-003",
+			"image":"../images/holidayPastriesCategory/holidayPastries-003.png"
+		},
+		{
+			"id":4,
+			"label":"holidayPastries-004",
+			"description": "description-004",
+			"image":"../images/holidayPastriesCategory/holidayPastries-004.png"
+		},
+		{
+			"id":5,
+			"label":"holidayPastries-005",
+			"description": "description-005",
+			"image":"../images/holidayPastriesCategory/holidayPastries-005.png"
+		},
+		{
+			"id":6,
+			"label":"holidayPastries-006",
+			"description": "description-006",
+			"image":"../images/holidayPastriesCategory/holidayPastries-006.png"
+		},
+		{
+			"id":7,
+			"label":"holidayPastries-007",
+			"description": "description-007",
+			"image":"../images/holidayPastriesCategory/holidayPastries-007.png"
+		},
+		{
+			"id":8,
+			"label":"holidayPastries-008",
+			"description": "description-008",
+			"image":"../images/holidayPastriesCategory/holidayPastries-008.png"
+		},
+		{
+			"id":9,
+			"label":"holidayPastries-009",
+			"description": "description-009",
+			"image":"../images/holidayPastriesCategory/holidayPastries-009.png"
+		},
+		{
+			"id":10,
+			"label":"holidayPastries-010",
+			"description": "description-010",
+			"image":"../images/holidayPastriesCategory/holidayPastries-010.png"
+		},
+		{
+			"id":11,
+			"label":"holidayPastries-011",
+			"description": "description-011",
+			"image":"../images/holidayPastriesCategory/holidayPastries-011.png"
+		},
+		{
+			"id":12,
+			"label":"holidayPastries-012",
+			"description": "description-012",
+			"image":"../images/holidayPastriesCategory/holidayPastries-012.png"
+		},
+		{
+			"id":13,
+			"label":"holidayPastries-013",
+			"description": "description-013",
+			"image":"../images/holidayPastriesCategory/holidayPastries-013.png"
+		},
+		{
+			"id":14,
+			"label":"holidayPastries-014",
+			"description": "description-014",
+			"image":"../images/holidayPastriesCategory/holidayPastries-014.png"
+		},
+		{
+			"id":15,
+			"label":"holidayPastries-015",
+			"description": "description-015",
+			"image":"../images/holidayPastriesCategory/holidayPastries-015.png"
+		}
+	]
+}

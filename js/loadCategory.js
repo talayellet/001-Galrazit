@@ -8,9 +8,6 @@ var a = {};
 const MAX_ITEMS_PER_PAGE = 8;
 const MAX_NUMBER_OF_PAGES = 10;
 
-const TAGS_CATEGORY1 = '<a href="breadCategory.html">';
-const TAGS_CATEGORY2 = '</a></li>';
-
 const TAGS1 = '<div class="col-lg-3 col-md-4 col-sm-6"><div class="thumbnail"><a href="#"><img class="img-thumbnail" src="';
 const TAGS2 = '" </a><div class="caption"><a href="#"><h3>';
 const TAGS3 = '</a></div></div></div><!-- /. col end-->';
@@ -23,8 +20,15 @@ a.currPage = 0;
 a.currItem = 0;
 
 // Set methods
-a.fLoadCategoryName = function (categoryName) {
-    $("#currentCategory").html(TAGS_CATEGORY1 + categoryName + TAGS_CATEGORY2);
+a.fLoadCategoryName = function (categoryName, categoryUrl) {
+    a.categoryName = categoryName;
+    a.categoryUrl = categoryUrl;
+
+    var tags1 = '<a href="';
+    var tags2 = '">';
+    var tags3 = '</a></li>';
+
+    $("#currentCategory").html(tags1 + a.categoryUrl + tags2 + a.categoryName + tags3);
     $("#categoryLabelId").text(categoryName);
 }
 
@@ -53,7 +57,7 @@ a.fPageStateHandler = function (activePageNum) {
     });
 }
 
-a.fSetPagination = function (contentObj) {
+a.fDisplayPageContent = function (contentObj) {
     a.fGetPagesHtml(contentObj);
 
     // Load first page
@@ -94,6 +98,6 @@ a.fSetPagination = function (contentObj) {
 a.fGetItems = function (jsonPath, productsObj) {
     $.getJSON(jsonPath, function (data) {
         productsObj = data.products;
-        a.fSetPagination(productsObj);
+        a.fDisplayPageContent(productsObj);
     })
 }
